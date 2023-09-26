@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Poppins:wght@500&display=swap'); 
+/* 'Fuggles', cursive */
+/* button inner txt color #659B5E 
+button bg #95BF74
+hover change to #659B5E
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: poppins; 
+  background-color: #99DDC8;
+  color: #283F3B;
+}

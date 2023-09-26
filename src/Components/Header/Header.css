@@ -1,0 +1,24 @@
+.navbars{
+    /* display: flex; */
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    margin: 0;
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Fuggles', cursive;
+    color: #283F3B;
+    text-align: center;
+}
+.nav-list{
+    gap: 10px;
+}
+.nav-links{
+    text-decoration: none;
+    color: #283F3B;
+}
+.cart{
+    color: #283F3B;
+}
