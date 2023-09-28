@@ -112,22 +112,26 @@
  
 }
 
-#ads .card-notify-year {
-      position: absolute;
-      right: -10px;
-      top: -20px;
-      background: #1e293b;
-      border-radius: 50%;
-      text-align: center;
-      color: #000000;
-      border: 1px solid #e2e8f0;     
-      font-size: 14px;      
-      width: 50px;
-      height: 50px;    
-      padding: 15px 0 0 0;
+#ads .card-notify {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  background: #1e293b;
+  border-radius: 50%;
+  text-align: center;
+  fill: #ffffff;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  /* for responsive need to change w nd h to 40px and padding to  8px   */
+  width: 50px;
+  height: 50px;
+  padding: 15px 0 0 0;
+}
+.addcart{
+  fill: #ffffff;
 }
 
-#ads .card-notify-year:hover {
+#ads .card-notify:hover {
   color: #fff;
   border: 1px solid #1e293b;
 }
@@ -136,6 +140,21 @@
   background-color: transparent;
 }
 #ads .ad-title h5 {
-      text-transform: uppercase;
-      font-size: 18px;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  #ads .card-notify{
+    width: 40px;
+    height: 40px;
+    padding: 8px 0 0 0;
   }
+  #ads .ad-title h5 {
+    font-size: 12px;
+  }
+  .titles{
+    font-size: 20px;
+  }
+}
+  

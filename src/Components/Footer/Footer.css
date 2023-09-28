@@ -114,8 +114,7 @@ a {
   }
   
   .footer-copyright-link {
-      color: #fff;
-      text-decoration: none;
+      color: #283F3B;
   }
   /* Media Query For different screens */
   @media (min-width:320px) and (max-width:479px)  { /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */

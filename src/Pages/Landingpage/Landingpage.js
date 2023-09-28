@@ -65,10 +65,10 @@ const Landingpage = () => {
       <div className="container">
         <h4 className='titles'>Car Hangings</h4>
         <div className="row" id="ads">
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={ch1} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -79,10 +79,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={ch2} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -93,10 +93,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={ch3} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -107,10 +107,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={ch4} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -127,10 +127,10 @@ const Landingpage = () => {
       <div className="container">
         <h4 className='titles'>Dreamcatchers</h4>
         <div className="row" id="ads">
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img className='addcart' src={addcart}/></span>
                 <img className="img-fluid collection_container" src={dc1} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -141,10 +141,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={dc2} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -155,10 +155,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={dc3} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -169,10 +169,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={dc4} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -183,10 +183,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={dc5} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
@@ -197,10 +197,10 @@ const Landingpage = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-5">
+          <div className="col-md-3 col-6 mb-5">
             <div className="card cards rounded">
               <div className="card-image">
-                <span className="card-notify-year"><img src={addcart}/></span>
+                <span className="card-notify"><img src={addcart}/></span>
                 <img className="img-fluid collection_container" src={dc6} alt="Alternate Text" />
               </div>
               <div className="card-body pt-2 text-center">
