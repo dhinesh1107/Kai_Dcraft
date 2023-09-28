@@ -21,7 +21,7 @@ const Footer = () => {
           </div>
           <div className="footer-call-to-action">
             <h2 className="footer-call-to-action-title"> You Mail Us</h2>
-            <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" target="_self"> kai-dcraft@gmail.com </a></p>
+            <p className="footer-call-to-action-link-wrapper"> <a className="footer-call-to-action-link" href = "mailto: kaidcraft2023@gmail.com" target="_blank"> kaidcraft2023@gmail.com </a></p>
           </div>
         </div>
       </div>
