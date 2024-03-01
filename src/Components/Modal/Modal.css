@@ -1,0 +1,21 @@
+.modeltitle{
+    font-size: 16px;
+}
+.addcartimg{
+    width: 38%;
+}
+.addbutton{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.adda{
+    text-align: center;
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+@media (min-width: 768px) {
+    .addcartimg{
+        width: 30%;
+    }
+}

@@ -1,0 +1,2 @@
+export const CUSTOMER_DETAILS = 'CUSTOMER_DETAILS';
+export const ADD_PRODUCTS = 'ADD_PRODUCTS';

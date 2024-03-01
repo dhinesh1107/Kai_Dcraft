@@ -34,6 +34,17 @@ export default{
         }
     ],
 
+    "collections": [
+      {
+        "id": 0,
+        "name": "Car hangs"
+      },
+      {
+        "id": 1,
+        "name": "Dreamcatcher"
+      },
+    ],
+
     "car_hangs": [
         {
           "product_id": 0,
@@ -109,14 +120,16 @@ export default{
         "product_name": "DreamCatcher",
         "price": 400,
         "Quantity": 2,
-        // "img_path": {three}
+        "img_path": {dc2},
+        "total_price": 800,
       },
       {
         "product_id": 0,
         "product_name": "DreamCatcher",
         "price": 400,
         "Quantity": 1,
-        // "img_path": {four}
+        "img_path": {dc4},
+        "total_price": 400,
       },
     ],
     "cart_summary": [
@@ -129,7 +142,7 @@ export default{
       {
         "product_id": 0,
         "prodct_name": "DreamCatcher",
-        // "img_path": {four},
+        "img_path": {dc1},
         "price": 400,
         "product_des": "A decorative object consisting of a ring with a net of string across it and feathers, etc, and thought to bring its owner good dreams",
         "product_features": {
@@ -142,5 +155,38 @@ export default{
           "Color": "Available in different colors.",
         }
       }
-    ]
+    ],
+    "add_to_cart": [
+      {
+        "product_id": 0,
+        "prodct_name": "DreamCatcher",
+      }
+    ],
+    "checkout_details": [
+      {
+        "email": "sfdf",
+        "name": "ere",
+        "address": "qwerty",
+        "city": "asde",
+        "state": "ytui",
+        "pincode": "1478963",
+        "contact": "1234567890",
+        "Region": "India",
+        "billing_address": {
+          "email": "sfdf",
+          "name": "ere",
+          "address": "qwerty",
+          "city": "asde",
+          "state": "ytui",
+          "pincode": "1478963",
+          "contact": "1234567890",
+          "Region": "India",
+        },
+      }
+    ],
+    "transcation_deatils": [
+      {
+        "trans_id": "razorpay_payment_id"
+      }
+    ],
 }

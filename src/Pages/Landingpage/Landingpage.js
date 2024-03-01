@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import './Landingpage.css';
@@ -8,9 +8,18 @@ import dc from '../../Images/dc.jpg';
 import dchangings from '../../Images/carhanging.jpg';
 import addcart from '../../Images/addcart.svg';
 import Response from '../../Response';
+import { useNavigate } from 'react-router-dom';
+import BasicModal from '../../Components/Modal/Modal';
+import dc1 from '../../Images/DC/dc1.jpg';
 
 
 const Landingpage = () => {
+  const [addToCart, setAddToCart] = useState(false);
+  const navigation = useNavigate();
+  
+  const reDirect = () => {
+    navigation('/productdetails');
+}
   return (
     <>
       <Header/>
@@ -23,7 +32,7 @@ const Landingpage = () => {
           {Response.Product_Carousel.map((e,idx) => {
             return(
               <div>
-                <img src={Object.values(e.img_path)} />
+                <img id = {idx} src={Object.values(e.img_path)} />
               </div>
             )
           })}
@@ -49,7 +58,7 @@ const Landingpage = () => {
         <div className="row" id="ads">
           {Response.car_hangs.map((e, idx) => {
             return (
-              <div className="col-md-3 col-6 mb-5">
+              <div className="col-md-3 col-6 mb-5" id={`carhangs-${idx}`}>
                 <div className="card cards rounded">
                   <div className="card-image">
                     <span className="card-notify"><img src={addcart} /></span>
@@ -73,11 +82,11 @@ const Landingpage = () => {
         <div className="row" id="ads">
           {Response.dreamcatcher.map((e,idx) => {
             return(
-              <div className="col-md-3 col-6 mb-5">
+              <div className="col-md-3 col-6 mb-5" id={`dreamcatcher-${idx}`}>
                 <div className="card cards rounded">
                   <div className="card-image">
-                    <span className="card-notify"><img className='addcart' src={addcart} /></span>
-                    <img className="img-fluid collection_container" src={Object.values(e.img_path)} alt="Alternate Text" />
+                    <span className="card-notify"><img className='addcart' src={addcart} onClick={() => {setAddToCart(!addToCart);}}/></span>
+                    <img className="img-fluid collection_container" src={Object.values(e.img_path)} onClick={() => {reDirect();}} alt="Alternate Text" />
                   </div>
                   <div className="card-body pt-2 text-center">
                     <div className="ad-title m-auto">
@@ -92,6 +101,14 @@ const Landingpage = () => {
         </div>
       </div>
       <Footer/>
+      {addToCart && 
+    <BasicModal 
+    handleClick={() => setAddToCart(true)}
+    handleClose={() => setAddToCart(false)}
+    src={dc1}
+    text={'The Catcher'}
+    />
+    } 
     </>
   )
 }

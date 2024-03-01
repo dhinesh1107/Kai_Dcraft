@@ -1,0 +1,133 @@
+.product-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.product-name {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.product-image {
+    max-width: 65%;
+    height: auto;
+    margin-bottom: 20px;    
+    margin: auto;
+    display: block;
+}
+.product-price {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+}
+.price-end{
+    display: flex;
+    gap: 15px;
+}
+.component-quantity-input {
+    display: block;
+    border: 1px solid;
+    width: 105px;
+    border-radius: 15px;
+}
+
+.component-quantity-input * {
+    display: inline-block;
+}
+
+.component-quantity-input input {
+    padding: 5px;
+    text-align: center;
+    width: 40px;
+    border: none;
+    background-color: transparent;
+}
+
+.component-quantity-input span {
+    margin-left: 8px;
+    margin-right: 8px;
+    padding: 5px;
+    width: 15px;
+    text-align: center;
+    cursor: pointer;
+}    
+.gift{
+    gap: 5px;
+}
+.gift input{
+    accent-color: #99DDC8;
+    outline: none;
+}
+.msg-input{
+    width: 100%;
+}
+
+.product-description, .product-features, .product-specifications {
+    margin-bottom: 20px;
+}
+.product-description h2,
+.product-features h2,
+.product-specifications h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.product-description p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.product-features ul,
+.product-specifications ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.product-detail_btn {
+    background-color: transparent;
+    color: #000000;
+    border: 1px solid #e2e8f0;
+    border-radius: 1.5rem;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    font-family: poppins;
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 1;
+    padding: 0.5rem 0.8rem;
+    text-align: center;
+    text-decoration: none #0d172a solid;
+    text-decoration-thickness: auto;
+    transition: all .1s cubic-bezier(.4, 0, .2, 1);
+    box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .product-detail_btn:hover {
+    background-color: #1e293b;
+    color: #fff;
+    border: 1px solid #1e293b;
+  }
+
+  @media (min-width: 768px) {
+    .product-image{
+        max-width: 100%;
+    }
+    .product-detail_btn{
+      font-size: 0.8rem;
+      padding: 1rem 1.6rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .product-detail {
+        padding: 10px;
+    }
+}
